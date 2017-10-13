@@ -7,7 +7,6 @@
   padding-top: 120px;
 }
 
-
 @media screen and (max-width: 768px) {
 	.navbar-collapse {
 		padding-left:0;
@@ -22,4 +21,9 @@
 		background-color:#fff;
 		border:1px solid;
 	}
+}
+
+body .navbar {
+  height: inherit;
+  min-height: 30px;
 }
