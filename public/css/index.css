@@ -6,3 +6,20 @@
 #contact img {
   padding-top: 120px;
 }
+
+
+@media screen and (max-width: 768px) {
+	.navbar-collapse {
+		padding-left:0;
+		padding-right:0;
+	}
+
+	.widget ul.navbar-nav {
+		padding-left:0; 
+	}
+
+	.navbar-collapse {
+		background-color:#fff;
+		border:1px solid;
+	}
+}
